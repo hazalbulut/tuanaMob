@@ -1,0 +1,37 @@
+@import "~bulma";
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Open+Sans:300,400,700&display=swap");
+$navbar-background-color: rgba(230, 225, 225, 0.424);
+
+* {
+    box-sizing: border-box;
+    font-family: "Poppins", Helvetica, Arial, sans-serif;
+}
+.hero {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+        url("//demo.kallyas.net/architect/wp-content/uploads/sites/28/2016/11/project-large03.jpg");
+    background: {
+        repeat: no-repeat;
+        size: cover;
+        attachment: fixed;
+    }
+    .navbar {
+        background-color: $navbar-background-color;
+    }
+}
+.hero-body {
+    .title {
+        color: white;
+        font: {
+            size: 4rem;
+            family: bold;
+        }
+    }
+
+    .subtitle {
+        color: white;
+    }
+}
+.columns {
+    align-items: center;
+}
